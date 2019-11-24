@@ -1,5 +1,5 @@
 // persistent queue using AsyncStorage
-import { AsyncStorage } from 'react-native'
+import AsyncStorage from '@react-native-community/async-storage'
 import * as uuid from 'react-native-uuid'
 
 export interface QueueItem {
