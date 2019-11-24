@@ -12,7 +12,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@react-native-community/async-storage": "^1.6.2",
     "buffer": "^5.0.8",
+    "prop-types": "^15.7.2",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
     "react-native-uuid": "^1.4.9"
   },
   "ava": {
@@ -35,8 +39,5 @@
     "tslint": "^5.9.1",
     "tslint-config-standard": "^7.0.0",
     "typescript": "^2.6.2"
-  },
-  "peerDependencies": {
-    "react-native": "^0.52.2"
   }
 }
