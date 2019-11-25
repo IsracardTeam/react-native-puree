@@ -4,7 +4,8 @@
     "module": "commonjs",
     "sourceMap": true,
     "outDir": "./lib",
-    "declaration": true
+    "declaration": true,
+    "lib": ["es6"]
   },
   "include": ["./src/"]
 }
