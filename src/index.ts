@@ -81,7 +81,7 @@ export default class Puree {
     return value
   }
 
-  async flush () {
+  async flush (removeFromStorage = true) {
     if (this.buffer === undefined) await this.initBuffer()
     const items = this.buffer.splice(0, Puree.LOG_LIMIT)
 
@@ -98,7 +98,10 @@ export default class Puree {
 
     debugLog(`Finished processing logs: ${JSON.stringify(logs)}`)
 
-    return this.queue.remove(items)
+    if (removeFromStorage)
+      return this.queue.remove(items)
+    
+    return;
   }
 
   private async process (logs: Log[], retryCount = 0): Promise<Error> {
