@@ -81,6 +81,15 @@ export default class Puree {
     return value
   }
 
+  async clearLogs () {
+    if (this.buffer === undefined) await this.initBuffer()
+    const items = this.buffer.splice(0, Puree.LOG_LIMIT)
+
+    if (items.length === 0) return
+    
+    return this.queue.remove(items)
+  }
+  
   async flush (removeFromStorage = true) {
     if (this.buffer === undefined) await this.initBuffer()
     const items = this.buffer.splice(0, Puree.LOG_LIMIT)
