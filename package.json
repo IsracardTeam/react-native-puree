@@ -31,9 +31,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "16.8.3",
     "@types/react-native": "0.60.23",
-    "@types/react-dom": "16.8.2",
     "ava": "^0.24.0",
     "babel-polyfill": "^6.26.0",
     "metro-react-native-babel-preset": "^0.56.0",
