@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@react-native-community/async-storage": "^1.6.2",
     "buffer": "^5.0.8",
     "react-native-uuid": "^1.4.9"
   },
