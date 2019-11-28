@@ -6,7 +6,7 @@
     "outDir": "./lib",
     "declaration": true,
     "lib": ["es6", "dom", "es2017"],
-    "types": ["react", "jest"]
+    "types": ["react"]
   },
   "include": [
     "src/*"
