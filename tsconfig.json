@@ -5,9 +5,9 @@
     "sourceMap": true,
     "outDir": "./lib",
     "declaration": true,
-    "lib": ["es6"]
+    "lib": ["es6", "dom", "es2017"]
   },
   "include": [
-    "src/**/*"
+    "src/*"
   ]
 }
