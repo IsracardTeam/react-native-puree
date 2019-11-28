@@ -3,9 +3,9 @@
     "target": "es2017",
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "lib",
-    "rootDir": "src"
+    "outDir": "./lib",
     "declaration": true,
-    "lib": ["es6", "dom", "es2017"]
-  }
+    "lib": ["es6"]
+  },
+  "include": ["./src/"]
 }
