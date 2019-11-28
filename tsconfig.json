@@ -5,7 +5,8 @@
     "sourceMap": true,
     "outDir": "./lib",
     "declaration": true,
-    "lib": ["es6", "dom", "es2017"]
+    "lib": ["es6", "dom", "es2017"],
+    "types": ["react", "jest"]
   },
   "include": [
     "src/*"
