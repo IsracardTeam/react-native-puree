@@ -7,5 +7,8 @@
     "declaration": true,
     "lib": ["es6", "dom", "es2017"]
   },
-  "include": ["./src/*"]
+  "files": [
+    "src/index.ts",
+    "src/queue.ts"
+  ]
 }
